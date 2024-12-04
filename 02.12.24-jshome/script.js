@@ -8,6 +8,7 @@ for (const i in str1) {
     commonCount++;
     console.log(str1[i]);
     checkedChars = `Because the strings "react" and "redux" share the characters ${str1[i]}`;
+    
   }
 }
 console.log(commonCount);
