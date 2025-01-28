@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="app">
+      <form id="form">
+        <input type="text" id="inputSearch" placeholder="add city....." />
+        <button>Search</button>
+      </form>
+      <div class="weatherContent">
+            <div>
+                <span>city</span>
+                <span id="city"></span>
+            </div>
+            <div>
+                <span>Country</span>
+                <span id="country"></span>
+            </div>
+            <div>
+                <span>temp</span>
+                <span id="temp"></span>
+                <img src="" alt="" id="weatherIcon">
+            </div>
+      </div>
+
+      <p id="errorMassage" style="color: red"></p>
+    </section>
+  </body>
+  <script src="script.js" type="module"></script>
+</html>

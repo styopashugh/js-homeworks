@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="cards">
+      <div class="container">
+        <div id="newCard">
+          <label class="choose_typeOfcard">Choose a card:</label>
+          <select name="" id="cardType">
+            <option value="standart">standart</option>
+            <option value="silver">silver</option>
+            <option value="gold">gold</option>
+          </select>
+          <input type="number" placeholder="card number..." id="cardNumbers" />
+          <input type="password" placeholder="cvv..." id="cvvNumber" size="3" />
+          <input type="date" id="dateInput" />
+          <button class="btn" onclick="makeCard()">Creat Card</button>
+        </div>
+        <div id="existedCard">
+            
+            
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="script.js"></script>
+</html>

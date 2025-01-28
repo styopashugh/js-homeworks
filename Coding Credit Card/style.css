@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(235, 221, 221);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#newCard{
+    width: 400px;
+    height: 250px;
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(336deg, rgba(154, 154, 154, 0.8), rgba(0,0,255,0) 70.71%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+    gap: 3px;
+}
+
+.choose_typeOfcard{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    color: rgb(24, 24, 24);
+}
+
+.cardType{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+}
+#cardNumbers{
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+#cvvNumber{
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.btn{
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+  border: none;
+  padding: 16px 32px;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.btn:hover {
+    background-color: #555555;
+    color: white;
+    border-radius: 12px;
+
+  }
+
+
+  #existedCard{
+    width: 400px;
+    height: 250px;
+    background: linear-gradient(217deg, rgba(240, 237, 237, 0.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(336deg, rgba(35, 35, 35, 0.8), rgba(0,0,255,0) 70.71%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+    gap: 3px;
+  }
